@@ -17,7 +17,8 @@ module "webserver-ec2" {
   instance_type = "t2.micro"
   tags = {
     Owner       = "Marcos Soares"
-    Environment = "Prod"    
+    Project     = "Clicksign"
+    ManagedBy   = "Terraform"    
   }
 }
 

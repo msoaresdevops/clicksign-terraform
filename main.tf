@@ -16,9 +16,9 @@ module "webserver-ec2" {
   ami           = "ami-088911543b10876a4"
   instance_type = "t2.micro"
   tags = {
-    Owner       = "Marcos Soares"
-    Project     = "Clicksign"
-    ManagedBy   = "Terraform"    
+    Owner     = "Marcos Soares"
+    Project   = "Clicksign"
+    ManagedBy = "Terraform"
   }
 }
 
